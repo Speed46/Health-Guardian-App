@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="The All New HeathCare app for everything a Health Seeker would need">
+
+
+  <title>Health Guardian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Health Guardian    </h1>
+  </header>
+
+  <div id="content">
+    <h2>What would you like to do?</h2>
+    <div id="menu">
+      <button class="action-button sync-button" onclick="syncData()">
+        <span class="button-icon"></span>
+        Sync wearable device data
+      </button>
+      <button class="action-button health-button" onclick="viewHealthMetrics()">
+        <span class="button-icon"></span>
+        View health metrics
+      </button>
+      <button class="action-button medication-button" onclick="setMedicationReminders()">
+        <span class="button-icon"></span>
+        Set medication reminders
+      </button>
+      <button class="action-button exercise-button" onclick="viewExerciseRoutines()">
+        <span class="button-icon"></span>
+        View exercise routines
+      </button>
+      <button class="action-button appointment-button" onclick="scheduleAppointments()">
+        <span class="button-icon"></span>
+        Schedule doctor's appointments
+      </button>
+      <button class="action-button communicate-button" onclick="communicateWithHealthcareProvider()">
+        <span class="button-icon"></span>
+        Communicate with healthcare provider
+      </button>
+      <button class="action-button exit-button" onclick="exitApp()">
+        <span class="button-icon"></span>
+        Exit
+      </button>
+      <!-- Additional Buttons -->
+      <button class="action-button medplus-button" onclick="searchMedplusStores()">
+        <span class="button-icon"></span>
+        Search Medplus stores
+      </button>
+      <button class="action-button fitbit-button" onclick="fetchFitbitData()">
+        <span class="button-icon"></span>
+        Fetch Fitbit data
+      </button>
+      <button class="action-button nutritionix-button" onclick="searchNutritionixFood()">
+        <span class="button-icon"></span>
+        Search Nutritionix food
+      </button>
+    </div> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+

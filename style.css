@@ -1,0 +1,335 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+ 
+  header {
+  
+    color: brown;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.5;
+  }
+  
+  
+  #content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .action-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .button-icon {
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* .sync-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/34153/pexels-photo.jpg");
+  } */
+
+
+  .sync-button .button-icon {
+    background-image: url("https://tinyurl.com/3wa64j26");
+  }
+
+  .sync-button{
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .health-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/3846040/pexels-photo-3846040.jpeg");
+  } */
+
+
+  .health-button .button-icon {
+    background-image: url("https://tinyurl.com/4mp25kc4");
+  }
+
+    .health-button{
+        background-color: palevioletred;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+  /* .medication-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/235766/pexels-photo-235766.jpeg");
+  } */
+
+  .medication-button .button-icon {
+    background-image: url("https://tinyurl.com/2s4fhzwz");
+  }
+
+    .medication-button{
+        background-color: indigo;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+  /* .exercise-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/416320/pexels-photo-416320.jpeg");
+  } */
+
+
+  .exercise-button .button-icon {
+    background-image: url("https://tinyurl.com/392h46d4");
+  }
+
+    .exercise-button{
+        background-color: orange;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+  /* .appointment-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/405031/pexels-photo-405031.jpeg");
+  } */
+
+
+  .appointment-button .button-icon {
+    background-image: url("https://tinyurl.com/3ey3cffz");
+  }
+
+    .appointment-button{
+        background-color: springgreen;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+  /* .communicate-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/405031/pexels-photo-405031.jpeg");
+  } */
+
+
+  .communicate-button .button-icon {
+    background-image: url("https://tinyurl.com/mr47ey7b");
+  }
+
+    .communicate-button{
+        background-color: plum;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+  /* .exit-button .button-icon {
+    background-image: url("https://images.pexels.com/photos/539629/pexels-photo-539629.jpeg");
+  } */
+
+  .exit-button .button-icon {
+    background-image: url("https://tinyurl.com/bdd4s4c3");
+  }
+
+    .exit-button{
+        background-color: rgb(202, 232, 115);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+  
+  .medplus-button .button-icon {
+    background-image: url("https://tinyurl.com/42rfnax6");
+  }
+
+
+  .medplus-button{
+    background-color: greenyellow;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .fitbit-button .button-icon {
+    background-image: url("https://tinyurl.com/2p8s4s5u");
+  }
+  .fitbit-button{
+    background-color: mediumvioletred;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  .nutritionix-button .button-icon {
+    background-image: url("https://tinyurl.com/42m4836s");
+  }
+  .nutritionix-button{
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+   
+
+
+  
+
+
+
+
+html , body {
+
+background-color: beige;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
